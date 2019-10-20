@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px 1px rgb(207, 207, 207);
+  align-items: flex-start;
+  width: 25%;
+  margin: 30px;
+  text-align: left;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 2px 20px 4px rgb(168, 168, 168);
+  transform: scale(1.015);
+}
+.card > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card i {
+  margin-left: 15px;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.card h4 {
+  margin-bottom: 0;
+}
